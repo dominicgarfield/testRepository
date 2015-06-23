@@ -71,7 +71,8 @@ namespace BanwellQuizBingo
 
         private void QuizBingoSheet_Load(object sender, EventArgs e)
         {
-           
+           //adding a test comment to quiz bingo sheet load for GIT test
+            //adding a second test comment to quiz bingo sheet for GIT test
         }
 
         Bitmap memoryImage;
@@ -89,7 +90,7 @@ namespace BanwellQuizBingo
         private void printDocument_PrintPage(System.Object sender,
                System.Drawing.Printing.PrintPageEventArgs e)
         {
-            //for each image in collection print - do array 
+            //for each image in collection print - do array  
             e.Graphics.DrawImage(memoryImage, 0, 0);
         }
     }
